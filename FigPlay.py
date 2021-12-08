@@ -5,17 +5,17 @@ from streamlit_drawable_canvas import st_canvas
 import pandas as pd
 import numpy as np
 # Visualisation
-import matplotlib.pyplot as plt
-import plotly.express as px
-import seaborn as sns
-# Sklearn metrics 
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, \
-    confusion_matrix, classification_report
-# Holdout
-from sklearn.model_selection import train_test_split
-# Pickle
-import pickle
-from PIL import Image
+# import matplotlib.pyplot as plt
+# import plotly.express as px
+# import seaborn as sns
+# # Sklearn metrics 
+# from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, \
+#     confusion_matrix, classification_report
+# # Holdout
+# from sklearn.model_selection import train_test_split
+# # Pickle
+# import pickle
+# from PIL import Image
 # Keras 
 # from tensorflow import keras
 # import tensorflow as tf
@@ -43,12 +43,12 @@ from PIL import Image
 
 ##########################################
 ##### Import du dataset test et du modèle
-@st.cache(allow_output_mutation=True)
-def load_pred():
-    model = load_model('C:/Users/Utilisateur/Desktop/Arturo/Reseau_neuronal_convolutif/Amodel.h5')
-    return model
+# @st.cache(allow_output_mutation=True)
+# def load_pred():
+#     model = load_model('C:/Users/Utilisateur/Desktop/Arturo/Reseau_neuronal_convolutif/Amodel.h5')
+#     return model
 
-model = load_pred()
+# model = load_pred()
 
 ####################
 ##### TEST ALEATOIRE 
