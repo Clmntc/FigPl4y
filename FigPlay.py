@@ -17,26 +17,26 @@ from sklearn.model_selection import train_test_split
 import pickle
 from PIL import Image
 # Keras 
-from tensorflow import keras
-import tensorflow as tf
-from keras.models import Sequential
-from keras.layers.core import Dense, Dropout, Activation,Flatten
-from keras.layers import Conv2D, MaxPooling2D
-from tensorflow.keras.optimizers import Adam
-from keras.models import load_model
+# from tensorflow import keras
+# import tensorflow as tf
+# from keras.models import Sequential
+# from keras.layers.core import Dense, Dropout, Activation,Flatten
+# from keras.layers import Conv2D, MaxPooling2D
+# from tensorflow.keras.optimizers import Adam
+# from keras.models import load_model
 
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: 'white'
-    }
-   .sidebar .sidebar-content {
-        background: 'white'
-    }
-    </style>
-    """,unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <style>
+#     .reportview-container {
+#         background: 'white'
+#     }
+#    .sidebar .sidebar-content {
+#         background: 'white'
+#     }
+#     </style>
+#     """,unsafe_allow_html=True
+# )
 
 # image = Image.open('C:/Users/Utilisateur/Desktop/Alyson/Flasks/Openfood/NP.png')
 # st.image(image)
