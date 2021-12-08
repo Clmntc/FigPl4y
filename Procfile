@@ -1,1 +1,1 @@
-'web: gunicorn app:FigPlay.py' 
+'web: gunicorn app:FigPlay' 
