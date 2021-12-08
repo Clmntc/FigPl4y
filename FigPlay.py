@@ -1,6 +1,6 @@
 # Déploiement streamlit
 import streamlit as st
-import cv2
+# import cv2
 from streamlit_drawable_canvas import st_canvas
 import pandas as pd
 import numpy as np
